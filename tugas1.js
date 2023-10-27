@@ -62,8 +62,8 @@ function searchName (valueSearch, jumlahBatas, callback) {
     callback(name.filter(searchEnggine).slice(0, jumlahBatas));
   }
   
-  function hasilSearch(search){
-    console.log(search)
+  function hasilSearch(name){
+    console.log(name);
   }
   
   searchName('an', 3, hasilSearch);
